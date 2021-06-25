@@ -3409,6 +3409,7 @@ Source:  Data sheet </description>
 <part name="RESET" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="S1" library="switch-reed" library_urn="urn:adsk.eagle:library:379" deviceset="REED-SWITCH-" device="MK6-5-B" package3d_urn="urn:adsk.eagle:package:27524/1" value="MK6-5-B"/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3510,6 +3511,9 @@ Source:  Data sheet </description>
 <instance part="S1" gate="G$1" x="157.48" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="160.02" y="167.64" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="157.48" y="167.64" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY7" gate="GND" x="208.28" y="43.18" smashed="yes">
+<attribute name="VALUE" x="206.375" y="40.005" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3614,6 +3618,11 @@ Source:  Data sheet </description>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="154.94" x2="152.4" y2="170.18" width="0.1524" layer="91"/>
 <junction x="152.4" y="154.94"/>
+</segment>
+<segment>
+<wire x1="205.74" y1="48.26" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+<wire x1="208.28" y1="48.26" x2="208.28" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ROW-B" class="0">
@@ -3821,6 +3830,10 @@ Source:  Data sheet </description>
 <label x="45.72" y="68.58" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="P$5"/>
 </segment>
+<segment>
+<wire x1="205.74" y1="50.8" x2="210.82" y2="50.8" width="0.1524" layer="91"/>
+<label x="210.82" y="50.8" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="COL-0" class="0">
 <segment>
@@ -3851,6 +3864,12 @@ Source:  Data sheet </description>
 <label x="45.72" y="53.34" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="P$8"/>
 </segment>
+<segment>
+<wire x1="190.5" y1="53.34" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="53.34" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
+<label x="185.42" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="COL-1" class="0">
 <segment>
@@ -3866,6 +3885,10 @@ Source:  Data sheet </description>
 <wire x1="30.48" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <label x="45.72" y="78.74" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="P$3"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="50.8" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
+<label x="185.42" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ROW-0" class="0">
@@ -4285,6 +4308,12 @@ Source:  Data sheet </description>
 <wire x1="78.74" y1="58.42" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
 <junction x="78.74" y="60.96"/>
 </segment>
+<segment>
+<wire x1="205.74" y1="53.34" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="53.34" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="55.88" x2="210.82" y2="55.88" width="0.1524" layer="91"/>
+<label x="210.82" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -4364,6 +4393,12 @@ Source:  Data sheet </description>
 <wire x1="177.8" y1="170.18" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
 <junction x="177.8" y="154.94"/>
 <label x="177.8" y="165.1" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="48.26" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="48.26" x2="187.96" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="45.72" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
+<label x="185.42" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
