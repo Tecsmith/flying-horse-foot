@@ -7,17 +7,17 @@ This came about because some time ago I'd bought a Filco MJ2 TLK mechanical keyb
 
 ## Hardware / Part List
 
-| Qty | Description                 | Size      | Mnf. Part No.         | Mouser PN | Farnell PN | RS-Components RN |
-|-----|-----------------------------|-----------|-----------------------|-----------|------------|------------------|
-|  1  | ATmega32u2 micro controller |           | ATMEGA32U2-AU         |           |            |                  |
-|  2  | 4-10 Decoder Logic IC       |           | SN74HC42DR            |           |            |                  |
-|  1  | 16MHz crystal oscillator    |           | ABM8G-16.000MHZ-4Y-T3 |           |            |                  |
-|  2  | 18pF ceramic capacitors     | 0603      | C1608C0G1H180J        |           |            |                  |
-|  3  | 100nF ceramic capacitors    | 0603      | C1608X7R1E104K        |           |            |                  |
-|  2  | 1µF ceramic capacitors      | 0603      | C1608X7R1C105K        |           |            |                  |
-|  1  | 10µF electrolytic capacitor | 4.3x5.5mm | EEE-1CA100SR          |           |            |                  |
-|  2  | 22Ω resistors               | 0603      | ERJ-3GEYJ220V         |           |            |                  |
-|  4  | 10kΩ resistors              | 0603      | ERJ-3GEYJ103V         |           |            |                  |
-|  3  | 510Ω resistors              | 0603      | ERJ-3GEYJ511V         |           |            |                  |
-|  1  | Magnetic "Reed" switch      |           | KSK-1A87-1015         |           |            |                  |
-|  2  | 18-pin headers, 2mm pitch   |           |                       |           |            |                  |
+| Qty | Description                 | Size      | Mnf. Part No.         | Mouser PN | Farnell PN | RS-Components RN | Spec. |
+|-----|-----------------------------|-----------|-----------------------|-----------|------------|------------------|-------|
+|  1  | ATmega32u2 micro controller |           | ATMEGA32U2-AU         |           |            |                  | [🗏](DataSheets/01_Atmel_ATmega32u2.pdf) |
+|  2  | 4-10 Decoder Logic IC       |           | SN74HC42DR            |           |            |                  | [🗏]() |
+|  1  | 16MHz crystal oscillator    |           | ABM8G-16.000MHZ-4Y-T3 |           |            |                  | [🗏]() |
+|  2  | 18pF ceramic capacitors     | 0603      | C1608C0G1H180J        |           |            |                  | [🗏]() |
+|  3  | 100nF ceramic capacitors    | 0603      | C1608X7R1E104K        |           |            |                  | [🗏]() |
+|  2  | 1µF ceramic capacitors      | 0603      | C1608X7R1C105K        |           |            |                  | [🗏]() |
+|  1  | 10µF electrolytic capacitor | 4.3x5.5mm | EEE-1CA100SR          |           |            |                  | [🗏]() |
+|  2  | 22Ω resistors               | 0603      | ERJ-3GEYJ220V         |           |            |                  | [🗏]() |
+|  4  | 10kΩ resistors              | 0603      | ERJ-3GEYJ103V         |           |            |                  | [🗏]() |
+|  3  | 510Ω resistors              | 0603      | ERJ-3GEYJ511V         |           |            |                  | [🗏]() |
+|  1  | Magnetic "Reed" switch      |           | KSK-1A87-1015         |           |            |                  | [🗏]() |
+|  2  | 18-pin headers, 2mm pitch   |           |                       |           |            |                  | [🗏]() |
