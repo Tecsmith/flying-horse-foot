@@ -9,7 +9,7 @@ The original "The Pegasus Hoof" was a keyboard controller developed by Fredrik A
 
 I tried, but did not succeed, to contact Fredrik for permission to use his works.
 
-* Original site: http://bathroomepiphanies.com
+* Original site: [bathroomepiphanies.com](http://bathroomepiphanies.com)
 * Fredrik's Github presence: [@BathroomEpiphanies](https://github.com/BathroomEpiphanies)  *(Last active on 14 Dec 2017)*
 * Facebook page: [Fredrik Atmer](https://www.facebook.com/atmer)
 * YouTube channel: [Fredrik Atmer](https://www.youtube.com/channel/UCLyc9HxA4IIfsgjwyVSI49g)
