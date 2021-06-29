@@ -4,6 +4,59 @@ This body of work is my attempt to build a clone of "The Pegasus Hoof" keyboard 
 
 This came about because some time ago I'd bought a Filco MJ2 TLK mechanical keyboard with the intent to use it as a basis of a custom build Mechanical Board ... alas, other things had priority and 7 years later I found that I could no longer buy the hacker controller - "The Pegasus Hoof" - by Fredrik Atmer of ["Bathroom Epiphanies Inc."](http://bathroomepiphanies.com/controllers/)
 
+### Why?
+
+I use Mac ... the Filco Majestouch 2 Tenkeyless *(also Filco Majestouch 87/88 and Filco Zero)* has Windows key-mapping (i.e., `Ctrl`, `Win`, `Alt`), and I want MacOS key-mapping (i.e., `Ctrl`, `Option` *(Alt)*, `Command`).  Also want the `Menu` key to be the `Fn` key.
+
+
+## Copyright
+
+The original "The Pegasus Hoof" was a keyboard controller developed by Fredrik Atmer of ["Bathroom Epiphanies Inc."](http://bathroomepiphanies.com/controllers/)
+
+* Rev. 20131001, *a.k.a. V1*, (c) 2013 Fredrik Atmer
+* Rev. 20150108, *a.k.a. V2*, (c) 2015 Fredrik Atmer
+
+This work is:
+
+* Rev. 20210625, *a.k.a. V3*, by Vino Rodrigues, no copyright claimed
+  * **NB:** Attribution remains (c) 2015 Fredrik Atmer
+
+See: [LICENSE.md](LICENSE.md)
+
+
+## This revision
+
+This revision is schematically equivalent to **Rev. 20150108**, with a few additional features:
+
+1. An ISP6 AVR programming header is added for easier flashing - do not populate these pins on a deployed keyboard.
+2. A reset pin set is provided for easy resets during programming - short the pins with a tweezer or similar.
+3. The magnetic reed switch can be disabled to prevent unintended resets once the keyboard is deployed - scratch off the trace between JP1 to disconnect the reed switch from the circuit.
+
+<center>
+
+![Front](docs/20210635-t.png)
+
+![Back](docs/20210635-b.png)
+
+</center>
+
+## Firmware
+
+Initially I'm going to try to use existing firmware - I'm not looking to reinvent the wheel *(alas, did just that for these Gerber files)*.
+
+There are a few choices:
+
+* Fredrik's **epiphanies_qmk_keyboard** - https://github.com/BathroomEpiphanies/epiphanies_qmk_keyboard *(requires QMK)*
+  * **QMK** - https://github.com/qmk/qmk_firmware
+  * See also: https://github.com/qmk/qmk_firmware/tree/master/keyboards/bpiphany/pegasushoof
+  * Also try the online configurator - https://config.qmk.fm/#/bpiphany/pegasushoof/2015/LAYOUT
+* Fredrik's **epiphanies_tmk_keyboard** - https://github.com/BathroomEpiphanies/epiphanies_tmk_keyboard *(requires TMK)*
+  * Hasu's **TMK** - https://github.com/tmk/tmk_keyboard
+* David Howland's *(a.k.a. "metalliqaz")* **EasyAVR** - https://github.com/dhowland/EasyAVR
+* Fredrik's **costar_keyboard** - https://github.com/BathroomEpiphanies/costar_keyboard *(original, older)*
+
+
+*(For all above use the 2015 / v2 variant of The Pegasus Hoof)*
 
 ## Hardware / Part List
 
