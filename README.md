@@ -18,8 +18,8 @@ The original "The Pegasus Hoof" was a keyboard controller developed by Fredrik A
 
 This work is:
 
-* Rev. 20210625, *a.k.a. V3*, by Vino Rodrigues, no copyright claimed
-  * **NB:** Attribution remains (c) 2015 Fredrik Atmer
+* Rev. 20210625, *a.k.a. V2b*, by Vino Rodrigues, no copyright claimed
+  * ***NB:*** Attribution remains (c) 2015 Fredrik Atmer
 
 See: [LICENSE.md](LICENSE.md)
 
