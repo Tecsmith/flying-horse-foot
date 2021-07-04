@@ -32,13 +32,8 @@ This revision is schematically equivalent to **Rev. 20150108**, with a few addit
 2. A reset pin set is provided for easy resets during programming - short the pins with a tweezer or similar.
 3. The magnetic reed switch can be disabled to prevent unintended resets once the keyboard is deployed - scratch off the trace between JP1 to disconnect the reed switch from the circuit.
 
-<center>
+![Front](docs/20210635-t.png)  &nbsp; ![Back](docs/20210635-b.png)
 
-![Front](docs/20210635-t.png)
-
-![Back](docs/20210635-b.png)
-
-</center>
 
 ## Firmware
 
@@ -50,6 +45,7 @@ There are a few choices:
   * **QMK** - https://github.com/qmk/qmk_firmware
   * See also: https://github.com/qmk/qmk_firmware/tree/master/keyboards/bpiphany/pegasushoof
   * Also try the online configurator - https://config.qmk.fm/#/bpiphany/pegasushoof/2015/LAYOUT
+  * Can't wait to try out this with VIA - https://caniusevia.com/  !!
 * Fredrik's **epiphanies_tmk_keyboard** - https://github.com/BathroomEpiphanies/epiphanies_tmk_keyboard *(requires TMK)*
   * Hasu's **TMK** - https://github.com/tmk/tmk_keyboard
 * David Howland's *(a.k.a. "metalliqaz")* **EasyAVR** - https://github.com/dhowland/EasyAVR
