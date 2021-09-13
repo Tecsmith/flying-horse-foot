@@ -1,5 +1,6 @@
 # Various Licenses
 
+----------
 ## Original Works
 
 The original "The Pegasus Hoof" was a keyboard controller developed by Fredrik Atmer of ["Bathroom Epiphanies Inc."](http://bathroomepiphanies.com/controllers/)
@@ -27,10 +28,16 @@ Not sure what the Copyright is on that website.
 * PCB layout assumed from measuring and applying own layout preferences.
 
 
+## QMK Firmware
+
+The QMK firmware is licensed under the [**GNU GPL v3**](Firmware/QMK/../../LICENSE.md) licence.
+
+
+----------
 ## This body of Work
 
-* Rev. 20210625, *a.k.a. V3*, by Vino Rodrigues, no copyright claimed
-  * **NB:** Attribution remains (c) 2015 Fredrik Atmer
+* Rev. 20210911, *a.k.a. V3.1*, Vino Rodrigues, no copyright claimed
+* ![NB!](https://img.shields.io/badge/!-NB-red?labelColor=000000 "Nota bene") Attribution remains (c) 2015 Fredrik Atmer
 
 ### Public Domain
 
