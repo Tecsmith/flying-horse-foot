@@ -39,10 +39,11 @@ This revision is schematically equivalent to (v2) **Rev. 20150108**, with a few 
 
 1. An ISP6 AVR programming header is added for easier flashing - do not populate these pins on a deployed keyboard.
    * These are not in the standard 2x3 SPI header, but rather a 1x6 inline header so that one can use them as pogo-holes.
+   * Follow the instructions at the [QMK - ISP Flashing Guide](https://beta.docs.qmk.fm/using-qmk/guides/keyboard-building/isp_flashing_guide) docs page.
 2. There are 3 hardware reset options:
-   a. The original magnetic reed-switch option is available, can be disabled to prevent unintended resets once the keyboard is deployed - scratch off the trace between JP1 to disconnect the reed switch from the circuit.
-   b. A reset 0.1-inch 2-pin set is provided for easy resets during programming - short the pins with a tweezer or similar.
-   c. An optional physical switch can be added to the board for press-button resetting.
+   * The original magnetic reed-switch option is available, can be disabled to prevent unintended resets once the keyboard is deployed - scratch off the trace between JP1 to disconnect the reed switch from the circuit.
+   * A reset 0.1-inch 2-pin set is provided for easy resets during programming - short the pins with a tweezer or similar.
+   * An optional physical switch can be added to the board for press-button resetting.
 3. Added an optional ESD protection circuit ensuring the inbound USB line cannot damage the board.
 
 ![Front](docs/20210911-t.png)  &nbsp; ![Back](docs/20210911-b.png)
