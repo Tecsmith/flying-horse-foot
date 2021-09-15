@@ -4770,7 +4770,7 @@ at 30/07/2012 17:45:58</description>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$5" library="VinoRodrigues_Custom_Eagle" deviceset="TECSMITH-LOGO" device=""/>
-<part name="SPI6" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_NO_POP" value="spi_header"/>
+<part name="ISP6" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_NO_POP" value="isp_header"/>
 <part name="S2" library="VinoRodrigues_Custom_Eagle" deviceset="MOMENTARY-SWITCH-SPST-1" device="" value="SKRKAEE020"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
@@ -4779,7 +4779,8 @@ at 30/07/2012 17:45:58</description>
 <plain>
 <text x="208.28" y="58.42" size="1.778" layer="91">Optional ESD protection</text>
 <text x="124.46" y="22.86" size="1.778" layer="91">3x RESET Options</text>
-<text x="101.6" y="15.24" size="1.778" layer="91">Optional PCB Switch</text>
+<text x="101.6" y="12.7" size="1.778" layer="91">Optional PCB Switch</text>
+<text x="165.1" y="25.4" size="1.778" layer="91">ISP Header</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -4910,7 +4911,7 @@ at 30/07/2012 17:45:58</description>
 <attribute name="VALUE" x="211.455" y="34.925" size="1.778" layer="96"/>
 </instance>
 <instance part="U$5" gate="G$1" x="144.78" y="5.08" smashed="yes"/>
-<instance part="SPI6" gate="G$1" x="177.8" y="35.56" smashed="yes" rot="R90">
+<instance part="ISP6" gate="G$1" x="177.8" y="35.56" smashed="yes" rot="R90">
 <attribute name="VALUE" x="187.706" y="30.48" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="NAME" x="167.132" y="30.48" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
@@ -5038,7 +5039,7 @@ at 30/07/2012 17:45:58</description>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
-<pinref part="SPI6" gate="G$1" pin="1"/>
+<pinref part="ISP6" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="40.64" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="43.18" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
@@ -5278,7 +5279,7 @@ at 30/07/2012 17:45:58</description>
 <segment>
 <wire x1="175.26" y1="40.64" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
 <label x="175.26" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="SPI6" gate="G$1" pin="4"/>
+<pinref part="ISP6" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="COL-0" class="0">
@@ -5312,7 +5313,7 @@ at 30/07/2012 17:45:58</description>
 </segment>
 <segment>
 <label x="180.34" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="SPI6" gate="G$1" pin="3"/>
+<pinref part="ISP6" gate="G$1" pin="3"/>
 <wire x1="180.34" y1="50.8" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="48.26" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="48.26" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
@@ -5335,7 +5336,7 @@ at 30/07/2012 17:45:58</description>
 </segment>
 <segment>
 <label x="170.18" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="SPI6" gate="G$1" pin="5"/>
+<pinref part="ISP6" gate="G$1" pin="5"/>
 <wire x1="172.72" y1="40.64" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="48.26" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="48.26" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
@@ -5706,7 +5707,7 @@ at 30/07/2012 17:45:58</description>
 <pinref part="SUPPLY11" gate="G$1" pin="VCC"/>
 <wire x1="180.34" y1="40.64" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="45.72" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="SPI6" gate="G$1" pin="2"/>
+<pinref part="ISP6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="ESD" gate="A" pin="VCC"/>
@@ -5789,7 +5790,7 @@ at 30/07/2012 17:45:58</description>
 <wire x1="170.18" y1="45.72" x2="165.1" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="45.72" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
 <label x="165.1" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="SPI6" gate="G$1" pin="6"/>
+<pinref part="ISP6" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="17.78" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
