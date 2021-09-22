@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2.5" altunitdist="mil" altunit="mil"/>
@@ -2615,14 +2615,14 @@ design rules under a new name.</description>
 <wire x1="49.53" y1="6.985" x2="49.53" y2="18.034" width="0.3048" layer="16"/>
 <wire x1="49.53" y1="18.034" x2="36.83" y2="30.734" width="0.3048" layer="16"/>
 </signal>
-<signal name="LED-CAPS">
+<signal name="LED-SCR">
 <contactref element="U$4" pad="1"/>
 <contactref element="R4" pad="1"/>
 <wire x1="1.778" y1="30.861" x2="3.976" y2="30.861" width="0.3048" layer="1"/>
 <wire x1="1.778" y1="30.861" x2="1.4003" y2="31.2387" width="0.3048" layer="1"/>
 <wire x1="1.4003" y1="31.256" x2="1.4003" y2="31.2387" width="0.3048" layer="1"/>
 </signal>
-<signal name="LED-SCROLL">
+<signal name="LED-CAPS">
 <contactref element="U$4" pad="2"/>
 <contactref element="R5" pad="1"/>
 <wire x1="1.4003" y1="29.256" x2="1.478" y2="29.256" width="0.3048" layer="1"/>

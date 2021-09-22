@@ -5156,7 +5156,7 @@ at 30/07/2012 17:45:58</description>
 <label x="254" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED-CAPS" class="0">
+<net name="LED-SCR" class="0">
 <segment>
 <wire x1="25.4" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -5174,7 +5174,7 @@ at 30/07/2012 17:45:58</description>
 <wire x1="248.92" y1="119.38" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED-SCROLL" class="0">
+<net name="LED-CAPS" class="0">
 <segment>
 <wire x1="22.86" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="68.58" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
