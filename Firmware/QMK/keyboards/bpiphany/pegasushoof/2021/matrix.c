@@ -1,20 +1,20 @@
-/**
- * This file is part of the QMK Firmware distribution (https://github.com/qmk/qmk_firmware).
- * Copyright 2014-2021 Ralf Schmitt <https://github.com/xauser>
- *                     Daniel Svensson <dsvensson@gmail.com> [2013, 2015]
- *                     Vino Rodrigues <http://github.com/vinorodrigues> [2021]
+/*!
+ * Copyright 2014 Ralf Schmitt <ralf@bunkertor.net>
+ * Copyright 2016 Daniel Svensson <dsvensson@gmail.com>
+ * Copyright 2021 Vino Rodrigues <github.com/vinorodrigues>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, version 3.
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
  *
- * This program is distributed in the hope that it will be useful, but
- * WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 #include <stdint.h>
@@ -64,8 +64,8 @@ void matrix_init(void) {
     PORTB |=  0b01111111;
 
     for (uint8_t i=0; i < matrix_rows(); i++)  {
-        matrix[i] = 0;
-        matrix_debouncing[i] = 0;
+      matrix[i] = 0;
+      matrix_debouncing[i] = 0;
     }
 
     matrix_init_quantum();
@@ -81,7 +81,7 @@ uint8_t matrix_scan(void) {
             bool prev_bit = matrix_debouncing[row] & ((matrix_row_t)1<<col);
             bool curr_bit = rows & (1<<row);
             if ((changed |= prev_bit != curr_bit)) {
-                matrix_debouncing[row] ^= (matrix_row_t) 1 << col;
+	            matrix_debouncing[row] ^= (matrix_row_t) 1 << col;
             }
         }
     }
@@ -99,9 +99,9 @@ inline matrix_row_t matrix_get_row(uint8_t row) {
 void matrix_print(void) {
     print("\nr/c 0123456789ABCDEF\n");
     for (uint8_t row = 0; row < matrix_rows(); row++) {
-        print_hex8(row); print(": ");
-        print_bin_reverse16(matrix_get_row(row));
-        print("\n");
+       print_hex8(row); print(": ");
+       print_bin_reverse16(matrix_get_row(row));
+       print("\n");
     }
 }
 

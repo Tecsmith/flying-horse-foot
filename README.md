@@ -5,14 +5,6 @@ This body of work is my attempt to build a clone of "The Pegasus Hoof" keyboard 
 This came about because some time ago I'd bought a Filco MJ2 TLK mechanical keyboard with the intent to use it as a basis of a custom build Mechanical Board ... alas, other things had priority and 7 years later I found that I could no longer buy the hacker controller - "The Pegasus Hoof" - by Fredrik Atmer of ["Bathroom Epiphanies Inc."](http://bathroomepiphanies.com/controllers/)
 
 
-----------
-
-***WARNING:*** The current design is yet to be confirmed as working.  v3.0 for example had a pin-swap issue that only became apparent after production.  Significant lead times have lead the design to production times to be months.
-
-> **Please do not assume this build actually works until I remove this notice.**
-
-----------
-
 ### Why?
 
 I use Mac ... the Filco Majestouch 2 Tenkeyless *(also Filco Majestouch 87/88 and Filco Zero)* has Windows key-mapping (i.e., `Ctrl`, `Win`, `Alt`), and I want MacOS key-mapping (i.e., `Ctrl`, `Option` *(Alt)*, `Command`).
@@ -54,6 +46,8 @@ This revision is schematically equivalent to (v2) **Rev. 20150108**, with a few 
 ### Adaptation
 
 The [Firmware/](Firmware) folder has an adaptation that will work with QMK compiling to a VIA binary.  This can then used with VIA and a sideload JSON file, also provided.
+
+The included source is confirmed to be working - but only supporst the ANSI layout, and mapped to MacOS keyboard (WIN + ALT keys are swapped to OPT + COM).
 
 
 ### Originals
@@ -103,7 +97,7 @@ but there are others, like:  PCBWay, OSHPark, Seeedstudio
 |  2  | 1µF ceramic capacitors      | 0603      | C1608X7R1C105K080AC   | 810-C1608X7R1C105K   | 1907343      |       |
 |  2  | 22Ω resistors               | 0603      | ERJ-3GEYJ220V         | 667-ERJ-3GEYJ220V    | 2059557      |       |
 |  4  | 10kΩ resistors              | 0603      | ERJ-3GEYJ103V         | 667-ERJ-3GEYJ103V    | 2059627      |       |
-|  2  | 18-pin headers, 2mm pitch   | 2mm pitch | M22-2011205           | 855-M22-2011805      | 3395122      |       |
+|  2  | 18-pin headers, 2mm pitch   | 2mm pitch | M22-2011205           | 855-M22-2011805      | 3395122      | [Better Option](https://www.adafruit.com/product/2671) |
 | ~1~ | Magnetic Reed Switch        | 15mm      | MK06-5-B              | 876-MK6-5-B          | 1079479      | [&#128196;](DataSheets/05__MK06_V02.pdf) |
 | ~1~ | ESD Protection Device       | SOT-23    | TPD4S009DBVR          | 595-TPD4S009DBVR     | 3116519      | [&#128196;](DataSheets/06__tpd4s009.pdf) |
 | ~1~ | Compact Tactile Switche     | 3.9x2.9mm | SKRKAEE020            | 688-SKRKAEE020       | *-- n/a --*  | [&#128196;](DataSheets/07__SKRK-1370789.pdf) |
