@@ -45,9 +45,9 @@ This revision is schematically equivalent to (v2) **Rev. 20150108**, with a few 
 
 ### Adaptation
 
-The [Firmware/](Firmware) folder has an adaptation that will work with QMK compiling to a VIA binary.  This can then used with VIA and a sideload JSON file, also provided.
+The [Firmware/](Firmware) folder has an adaptation that will work with QMK compiling to a VIA binary.  This can then used with VIA and a side-load JSON file, also provided.
 
-The included source is confirmed to be working - but only supporst the ANSI layout, and mapped to MacOS keyboard (WIN + ALT keys are swapped to OPT + COM).
+The included source is confirmed to be working - but only supports the ANSI layout, and mapped to MacOS keyboard (WIN + ALT keys are swapped to OPT + COM).
 
 
 ### Originals
@@ -56,9 +56,8 @@ There are a few choices:
 
 * Fredrik's **epiphanies_qmk_keyboard** - https://github.com/BathroomEpiphanies/epiphanies_qmk_keyboard *(requires QMK)*
   * **QMK** - https://github.com/qmk/qmk_firmware
-  * See also: https://github.com/qmk/qmk_firmware/tree/master/keyboards/bpiphany/pegasushoof
-  * Also try the online configurator - https://config.qmk.fm/#/bpiphany/pegasushoof/2015/LAYOUT
-  * Can't wait to try out this with VIA - https://caniusevia.com/  !!
+  * See also: https://github.com/qmk/qmk_firmware/tree/master/keyboards/bpiphany/pegasushoof/ *(Use the 2015 variant)*
+  * Also try the online configurator - https://config.qmk.fm/#/bpiphany/pegasushoof/2015/LAYOUT 
 * Fredrik's **epiphanies_tmk_keyboard** - https://github.com/BathroomEpiphanies/epiphanies_tmk_keyboard *(requires TMK)*
   * Hasu's **TMK** - https://github.com/tmk/tmk_keyboard
 * David Howland's *(a.k.a. "metalliqaz")* **EasyAVR** - https://github.com/dhowland/EasyAVR
@@ -67,6 +66,9 @@ There are a few choices:
 
 *(For all above use the 2015 / v2 variant of The Pegasus Hoof)*
 
+### Flashing
+
+The default boot loader does not support flashing from USB *(or if it does I can't find a how to)*.  As such one will need to use the supplied ISP pins and flash the board with an ISP programer like the [USBasp](https://www.fischl.de/usbasp/).
 
 ----------
 
@@ -74,14 +76,13 @@ There are a few choices:
 
 ### PCB
 
-Using the included [Gerber](Gerber/) files, you can have this board made for you by a prototype manufacturer.
+Using the included [Gerber](Gerber/) files, you can have this board made for you from a prototype manufacturer.
 
 I have used the following with great success:
 
-* [JLCPCB](https://jlcpcb.com/)
-* [Smart-Prototyping](https://www.smart-prototyping.com/)
-
-but there are others, like:  PCBWay, OSHPark, Seeedstudio
+* [JLCPCB](https://jlcpcb.com/) *(V3.1 was made by JLCPCB on purple FR4 - love the look, and PCB is impeccable.)*
+* [Smart-Prototyping](https://www.smart-prototyping.com/)  *(V3.0 board was flawlessly manufactured, albeit with a trace error that I'd overlooked the design.  I'd used black PCB and it remains my preferred colour.)*
+* but there are others, like:  PCBWay, OSHPark, Seeedstudio
 
 ### Hardware / Part List
 
