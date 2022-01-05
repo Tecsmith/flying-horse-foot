@@ -20,8 +20,7 @@
 enum {
     LAYER_1 = 0,
     LAYER_2,
-    LAYER_3,
-    LAYER_4
+    LAYER_3
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
