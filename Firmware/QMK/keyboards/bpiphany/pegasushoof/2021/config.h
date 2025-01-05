@@ -1,6 +1,6 @@
 /*
-Copyright 2016 Daniel Svensson <dsvensson@gmail.com>ß
-Copyright 2021 Vino Rodrigues <github.com/vinorodrigues>
+Copyright 2016 Daniel Svensson <dsvensson@gmail.com>
+Copyright 2021 Silvino Rodrigues <github.com/silvinor>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

@@ -4,7 +4,7 @@
 
 A replacement controller that turns your Filco Majestouch 87/88 mechanical keyboard into a fully programmable keyboard.
 
-* Keyboard Maintainer: Vino Rodrigues
+* Keyboard Maintainer: @silvinor
 * Hardware Supported: Pegasus Hoof, revisions [20210911](2021/)
 * Hardware Availability: Self build from EAGLE source [github.com/Tecsmith/flying-horse-foot](https://github.com/Tecsmith/flying-horse-foot)
 

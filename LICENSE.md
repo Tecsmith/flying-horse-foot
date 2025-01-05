@@ -36,7 +36,7 @@ The QMK firmware is licensed under the [**GNU GPL v3**](Firmware/QMK/../../LICEN
 ----------
 ## This body of Work
 
-* Rev. 20210911, *a.k.a. V3.1*, Vino Rodrigues, no copyright claimed
+* Rev. 20210911, *a.k.a. V3.1*, Silvino Rodrigues, no copyright claimed
 * ![NB!](https://img.shields.io/badge/!-NB-red?labelColor=000000 "Nota bene") Attribution remains (c) 2015 Fredrik Atmer
 
 ### Public Domain

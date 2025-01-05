@@ -19,7 +19,7 @@ The original "The Pegasus Hoof" was a keyboard controller developed by Fredrik A
 
 This work is:
 
-* Rev. 20210911, *a.k.a. V3.1*, by Vino Rodrigues, no copyright claimed
+* Rev. 20210911, *a.k.a. V3.1*, by Silvino Rodrigues, no copyright claimed
 * ![NB!](https://img.shields.io/badge/!-NB-red?labelColor=000000 "Nota bene") Attribution remains (c) 2015 Fredrik Atmer
 
 See: [LICENSE.md](LICENSE.md)
@@ -57,7 +57,7 @@ There are a few choices:
 * Fredrik's **epiphanies_qmk_keyboard** - https://github.com/BathroomEpiphanies/epiphanies_qmk_keyboard *(requires QMK)*
   * **QMK** - https://github.com/qmk/qmk_firmware
   * See also: https://github.com/qmk/qmk_firmware/tree/master/keyboards/bpiphany/pegasushoof/ *(Use the 2015 variant)*
-  * Also try the online configurator - https://config.qmk.fm/#/bpiphany/pegasushoof/2015/LAYOUT 
+  * Also try the online configurator - https://config.qmk.fm/#/bpiphany/pegasushoof/2015/LAYOUT
 * Fredrik's **epiphanies_tmk_keyboard** - https://github.com/BathroomEpiphanies/epiphanies_tmk_keyboard *(requires TMK)*
   * Hasu's **TMK** - https://github.com/tmk/tmk_keyboard
 * David Howland's *(a.k.a. "metalliqaz")* **EasyAVR** - https://github.com/dhowland/EasyAVR
